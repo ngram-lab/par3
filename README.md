@@ -28,7 +28,7 @@ Translator 1 sentence:
 >‘It’s some while since Anna Pavlovna has visited us,’ the princess said once of Petrov’s wife.
 
 Translator 2 sentence:
-“I wonder why Anna Pavlovna has not been to see us for so long,” the princess said once about Madame Petrova.
+>“I wonder why Anna Pavlovna has not been to see us for so long,” the princess said once about Madame Petrova.
 
 Here's a case in which Translator 1 presumably merged 2 sentences from the source text.
 
