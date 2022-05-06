@@ -18,8 +18,25 @@ translator_data = data[book_key]["translator_data"]
 num_trans = len(translator_data) # number of human translations
 
 # printing out one random paragraph alignment from Anna Karenina
+print("PARAGRAPH-LEVEL ALIGNMENTS")
 para_idx = random.randint(0, len(data[book_key]["source_paras"]))
 print("Source text: ", source_paras[para_idx], "\n")
 print("Google Translate text: ", gt_paras[para_idx], "\n")
 for i in range(num_trans):
     print(f"Translator {str(i+1)} text: ", translator_data[f"translator_{i+1}"]["translator_paras"][para_idx], "\n")
+print("\n\n")
+
+# print one random sentence alignment from the paragraph above
+# printing out one random paragraph alignment from Anna Karenina
+print("SENTENCE-LEVEL ALIGNMENTS")
+sent_idx = random.randint(0, len(translator_data["translator_1"]["sent_alignments"][para_idx])-1)
+for i in range(num_trans):
+    print(f"Translator {str(i+1)}: ")
+    trans_sents = translator_data[f"translator_{i+1}"]["sent_alignments"][para_idx][sent_idx]["trans"]
+    for sent in trans_sents: # could be more than one sentence if the translator split or merged sentences in the source text
+        print(sent, "\n")
+    print(f"Google Translate: ")
+    gt_sents = translator_data[f"translator_{i+1}"]["sent_alignments"][para_idx][sent_idx]["gt"]
+    for sent in gt_sents: # could be more than one sentence if the translator split or merged sentences in the source text
+        print(sent, "\n")
+    print("-------------------------------")
