@@ -72,7 +72,7 @@ https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/
 https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L14 stores all source paragraphs for that book in the variable `gt_paras`.
 https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L17 stores all source paragraphs for that book in the variable `translator_data`.
 `translator_data` is a dictionary containing data for each human translation of the source text. Each translation's data can be accessed with the key `translator_i`, where `i` is the number of the translation.
-https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L24-L25 demonstrate how to access the paragraphs for each human translation that correspond to `source_paras` and `gt_paras`.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L24-L25 demonstrates how to access the paragraphs for each human translation that correspond to `source_paras` and `gt_paras`.
 
 ### Accessing Sentence Alignments
 Note that in the following line
@@ -82,7 +82,7 @@ we iterate over each human translator's data because sentence-level alignments a
 https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L34 usually stores a singleton list of the first sentence by `translator_i` in the randomly sampled paragraph from above. However, it's possible that this list contains more than one sentence.
 https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L35-L36
 
-Similarly, we access the corresponding Google Translation sentence(s) for `translation_i`.
+Similarly, we access the corresponding Google Translation sentence(s) for `translation_i`:
 https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L38-L40
 
 ### Dataset Structure  
