@@ -37,6 +37,7 @@ Translator 1 sentence:
 
 Google Translate (for Translator 1) sentences:
 > “No, you do as I said,” he said, softening the remark with a smile, and, briefly explaining to him how he understood the matter, pushed the papers aside and said: “Do so, please.
+
 >So please, Zakhar Nikitich.
 
 Translator 2 sentence:
@@ -52,10 +53,12 @@ Google Translate sentence:
 
 Translator 1 sentences:
 >‘I am not expressing my opinion about either sort of education,’ Sergei Ivanovich said with a smile of condescension, as if to a child, and held out his glass.
+
 >‘I am merely saying that there are strong arguments on both sides,’ he went on, turning to Alexei Alexandrovich.
 
 Translator 2 sentences:
 >“I am not expressing my own opinion about any particular culture,” said Sergei Ivanovich with a smile of condescension, as if for a child, as he offered his glass.
+
 >“I am merely saying that both sides have powerful arguments,” he continued, addressing Alexei Alexandrovich.
 
 ## Dataset Details
