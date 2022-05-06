@@ -75,7 +75,15 @@ https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/
 https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L24-L25 demonstrate how to access the paragraphs for each human translation that correspond to `source_paras` and `gt_paras`.
 
 ### Accessing Sentence Alignments
+Note that in the following line
+https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L32
+we iterate over each human translator's data because sentence-level alignments are independent for each Google Translate-human translation pair.
 
+https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L34 usually stores a singleton list of the first sentence by `translator_i` in the randomly sampled paragraph from above. However, it's possible that this list contains more than one sentence.
+https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L35-L36
+
+Similarly, we access the corresponding Google Translation sentence(s) for `translation_i`.
+https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/sample_par3.py#L38-L40
 
 ### Dataset Structure  
 ```
