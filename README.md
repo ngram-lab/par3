@@ -37,7 +37,7 @@ Translator 1 sentence:
 
 Google Translate (for Translator 1) sentences:
 > “No, you do as I said,” he said, softening the remark with a smile, and, briefly explaining to him how he understood the matter, pushed the papers aside and said: “Do so, please.
-So please, Zakhar Nikitich.
+>So please, Zakhar Nikitich.
 
 Translator 2 sentence:
 >“No, do it the way I told you,” he said, softening his remark with a smile, and after briefly explaining how he understood the case, pushed the papers away and said, “So do it that way, please.
@@ -52,11 +52,11 @@ Google Translate sentence:
 
 Translator 1 sentences:
 >‘I am not expressing my opinion about either sort of education,’ Sergei Ivanovich said with a smile of condescension, as if to a child, and held out his glass.
-‘I am merely saying that there are strong arguments on both sides,’ he went on, turning to Alexei Alexandrovich.
+>‘I am merely saying that there are strong arguments on both sides,’ he went on, turning to Alexei Alexandrovich.
 
 Translator 2 sentences:
->“I am not expressing my own opinion about any particular culture,” said Sergei Ivanovich with a smile of condescension, as if for a child, as he offered his glass. 
-“I am merely saying that both sides have powerful arguments,” he continued, addressing Alexei Alexandrovich.
+>“I am not expressing my own opinion about any particular culture,” said Sergei Ivanovich with a smile of condescension, as if for a child, as he offered his glass.
+>“I am merely saying that both sides have powerful arguments,” he continued, addressing Alexei Alexandrovich.
 
 ## Dataset Details
 The dataset is pickled dictionary in `par3.pkl`.
@@ -64,12 +64,12 @@ The dataset is pickled dictionary in `par3.pkl`.
 We provide the script `sample_par3.pkl` to demonstrate how to access paragraph and sentence alignments in Par3.
 
 ### Accessing Paragraph Alignments
-(https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L8) specifies a book from which to randomly sample a paragraph.
-(https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L11) stores all source paragraphs for that book in the variable `source_paras`.
-(https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L14) stores all source paragraphs for that book in the variable `gt_paras`.
-(https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L17) stores all source paragraphs for that book in the variable `translator_data`.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L8 specifies a book from which to randomly sample a paragraph.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L11 stores all source paragraphs for that book in the variable `source_paras`.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L14 stores all source paragraphs for that book in the variable `gt_paras`.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L17 stores all source paragraphs for that book in the variable `translator_data`.
 `translator_data` is a dictionary containing data for each human translation of the source text. Each translation's data can be accessed with the key `translator_i`, where `i` is the number of the translation.
-(https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L24-L25) demonstrate how to access the paragraphs for each human translation that correspond to `source_paras` and `gt_paras`.
+https://github.com/ngram-lab/par3/blob/bb42d319c6e313383a1594e8e3367811c3efa2ea/sample_par3.py#L24-L25 demonstrate how to access the paragraphs for each human translation that correspond to `source_paras` and `gt_paras`.
 
 ### Accessing Sentence Alignments
 
