@@ -1,12 +1,12 @@
 # Par3
 
 ## Introduction
-Par3 is a dataset comprised of aligned paragraphs of public-domain foreign language novels and their English translations. The data for each source novel contains at least 2 (and up to 5) human-written translations and 1 Google Translate-generated translation. Additionally, the dataset contains sentence-level alignments between the human translations and the Google Translate translations.
+Par3 is a dataset comprised of aligned paragraphs of public-domain foreign language novels and their human-written English translations. The alignments between source text and English translations were found by passing the source text through Google Translate and aligning the output with the English translations. Alignments were found using the Needleman-Wunsch algorithm with cosine similarity as the scoring function. The data for each source novel contains at least 2 (and up to 5) human-written translations, and we provide the intermediate Google Translate output used to align source and human translations. Additionally, the dataset contains sentence-level alignments between the human translations and the Google Translate translations. No more than 50% of the paragraphs in any human translation are present in Par3. 
 
 ## Corpus Statistics
 |    | # |
 | ------------- | ------------- |
-| Books  | 113  |
+| Books  | 106 |
 | Source languages | 16 |
 | Aligned paragraphs| 122,819 |
 | Aligned sentences| 1,581,988* |
