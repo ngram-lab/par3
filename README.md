@@ -10,7 +10,8 @@ Par3 is a dataset comprised of aligned paragraphs of public-domain foreign langu
 | Source languages | 16 |
 | Aligned paragraphs| 122,819 |
 | Aligned sentences| 1,581,988* |
-| Avg sentences/paragraph | 5.57 |
+| Avg sentences/paragraph | 5.6 |
+| Avg tokens/sentence | 18.8 |
 
 *This is an estimate based on the number of pairs we have between Google Translate sentence and human-written sentences.
 
