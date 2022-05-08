@@ -65,7 +65,7 @@ https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/
       "gt_paras": [gt_para_1, gt_para2],
       "translator_data": {
           "translator_1": {
-              "translator_paras": [trans1_para_1, trans2_para_2],
+              "translator_paras": [trans_para_1, trans_para_2],
               "sent_alignments": [
                   [
                     {"gt": [[gt_para_1_sent_1]],
