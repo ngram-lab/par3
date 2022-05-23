@@ -102,3 +102,13 @@ https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/
 `data[title_langcode]["translator_data"][translator_i]["translator_paras"]` is analogous to `data[title_langcode]["source_paras"]` and `data[title_langcode]["gt_paras"]`. It is a list of the same length as `data[title_langcode]["source_paras"]` For any index `x`, `data[title_langcode]["translator_data"][translator_i]["translator_paras"][x]` is aligned with `data[title_langcode]["source_paras"][x]` and `data[title_langcode]["gt_paras"][x]`.
 
 `data[title_langcode]["translator_data"][translator_i]["sent_alignments"]` is a list of lists the same length as `data[title_langcode]["source_paras"]`. Each list corresponds to one paragraph and contains a list of dictionaries. The number of dictionaries is equal to the number of sentences in that paragraph. The `"gt"` key is a list of the Google Translate sentence(s), while the `"trans"` key is a list of the corresponding transltor sentence(s). Note that these two lists need not be the same length in the case that sentences within a paragraph were split or merged by different translators.
+
+### Citation Information
+If you use this dataset, please cite it as follows:
+`@misc{Par3_2022,
+author = {Marzena Karpinska and Katherine Thai and Kalpesh Krishna and John Wieting and Moira Inghilleri and Mohit Iyyer},
+month = {5},
+title = {{Par3}},
+url = {https://github.com/ngram-lab/par3},
+year = {2022}
+}`
