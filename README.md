@@ -105,10 +105,10 @@ https://github.com/ngram-lab/par3/blob/0fe6e037262fc3097e3214e672de5352c603acfe/
 
 ### Citation Information
 If you use this dataset, please cite it as follows:
-`@misc{Par3_2022,
+```@misc{Par3_2022,
 author = {Marzena Karpinska and Katherine Thai and Kalpesh Krishna and John Wieting and Moira Inghilleri and Mohit Iyyer},
 month = {5},
 title = {{Par3}},
 url = {https://github.com/ngram-lab/par3},
 year = {2022}
-}`
+}```
