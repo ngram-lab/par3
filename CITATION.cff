@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Par3
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - name-particle: Marzena
+    family-names: Karpinska
+  - name-particle: Katherine
+    family-names: Thai
+  - name-particle: Kalpesh
+    family-names: Krishna
+  - name-particle: John
+    family-names: Wieting
+  - name-particle: Moira
+    family-names: Inghilleri
+  - name-particle: Mohit
+    family-names: Iyyer
+version: 1.0
+date-released: 2022-05-01
+url: "https://github.com/ngram-lab/par3"
